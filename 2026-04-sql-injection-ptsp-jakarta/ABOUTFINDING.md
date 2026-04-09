@@ -1,12 +1,12 @@
 # SQL Injection Vulnerability - PTSP Jakarta
 
-## 📋 Informasi Umum
+## Information
 
 | Aspek | Detail |
 |-------|--------|
 | **Vulnerability** | SQL Injection |
 | **Target** | ptsp.jakarta.go.id |
-| **Severity** | 🔴 **High** (dapat mengakses data sensitif) |
+| **Severity** | 🔴 **Critical** (Dump Databases) |
 | **Discovery Date** | April 2026 |
 | **Reported To** | Diskominfotik Provinsi DKI Jakarta |
 | **Status** | ✅ Fixed & Disclosed with permission |
@@ -18,7 +18,7 @@
 **Fairuz Raihan Ardion**
 - Cybersecurity Enthusiast | Bug Hunter
 - 📍 Jakarta, Indonesia
-- Platform: HackerOne / Bug Bounty Programs
+- Platform: CSIRT Jakarta
 
 ---
 
@@ -39,14 +39,6 @@ Discovered a SQL Injection vulnerability in the PTSP Jakarta government portal t
 ## 🔍 Vulnerability Description
 
 ### Affected Component
-- **Endpoint**: *(Sebutkan endpoint spesifik jika diizinkan)*
-- **Parameter**: *(Parameter yang rentan, misal: `?id=` atau form input tertentu)*
+- **Endpoint**: *I Can't give this information because of some reason.*
+- **Parameter**: *?id=*
 - **HTTP Method**: GET/POST
-
-### Proof of Concept (PoC)
-
-```http
-GET /[affected-endpoint]?[parameter]=[value]' HTTP/1.1
-Host: ptsp.jakarta.go.id
-User-Agent: Mozilla/5.0
-Accept: text/html
